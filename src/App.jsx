@@ -1,7 +1,8 @@
-import Accordian from './components/accordian'
-import Image from './components/imageSlider'
-import RandomColor from './components/randomColor'
-import Star from './components/star-rating'
+import Accordian from "./components/accordian";
+import Image from "./components/imageSlider";
+import Loadmore from "./components/load-more";
+import RandomColor from "./components/randomColor";
+import Star from "./components/star-rating";
 
 function App() {
   return (
@@ -9,9 +10,10 @@ function App() {
       {/* <Accordian/> */}
       {/* <RandomColor/> */}
       {/* <Star noofstar={8}/> */}
-      <Image/>
+      {/* <Image/> */}
+      <Loadmore />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
