@@ -1,0 +1,59 @@
+/* Container */
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.qr-container h1 {
+  color: #003366;
+  margin-bottom: 30px;
+}
+
+/* Input + Button Row */
+.qr-input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.qr-input-section input[type="text"] {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #0077cc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.qr-input-section button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.qr-input-section button:hover:enabled {
+  background-color: #005fa3;
+}
+
+.qr-input-section button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* QR Code Box */
+.qr-display {
+  background-color: #fff;
+  padding: 20px;
+  border: 2px dashed #0077cc;
+  border-radius: 10px;
+}
