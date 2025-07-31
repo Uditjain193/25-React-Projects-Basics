@@ -16,7 +16,7 @@ function App() {
       {/* <Image/> */}
       {/* <Loadmore /> */}
       {/* <TreeView menus={menus} /> */}
-      <QRcode/>
+      {/* <QRcode/> */}
     </div>
   );
 }
