@@ -1,5 +1,8 @@
 import Accordian from "./components/accordian";
+import TabTest from "./components/custom-tabs";
+import GithubProfile from "./components/github-profile-finder";
 import Image from "./components/imageSlider";
+import LightDarkMode from "./components/light-dark-mode";
 import Loadmore from "./components/load-more";
 import { QRcode } from "./components/qr-code";
 import RandomColor from "./components/randomColor";
@@ -17,6 +20,9 @@ function App() {
       {/* <Loadmore /> */}
       {/* <TreeView menus={menus} /> */}
       {/* <QRcode/> */}
+      {/* <TabTest/> */}
+      {/* <LightDarkMode/> */}
+      {/* <GithubProfile/> */}
     </div>
   );
 }
