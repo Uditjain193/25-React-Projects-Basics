@@ -1,4 +1,5 @@
 import Accordian from "./components/accordian";
+import AutoComplete from "./components/autocomplete";
 import Modal from "./components/custom-model-popup";
 import TabTest from "./components/custom-tabs";
 import GithubProfile from "./components/github-profile-finder";
@@ -9,6 +10,7 @@ import { QRcode } from "./components/qr-code";
 import RandomColor from "./components/randomColor";
 import ScrollIndicator from "./components/scroll-indicator";
 import Star from "./components/star-rating";
+import TicTacToe from "./components/tic-tac-toe";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 
@@ -26,7 +28,9 @@ function App() {
       {/* <LightDarkMode/> */}
       {/* <GithubProfile/> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      <Modal />
+      {/* <Modal /> */}
+      {/* <AutoComplete /> */}
+      <TicTacToe />
     </div>
   );
 }
