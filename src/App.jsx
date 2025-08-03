@@ -18,6 +18,8 @@ import TicTacToe from "./components/tic-tac-toe";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 import UseFetch from "./components/use-fetch";
+import OutsideClick from "./components/use-outside-click";
+import WindowResize from "./components/use-window-resize";
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
       {/* <UseFetch/> */}
       {/* <ScrollToTopAndBottom/> */}
       {/* <ScrollToSection /> */}
+      {/* <OutsideClick /> */}
+      <WindowResize />
     </div>
   );
 }
