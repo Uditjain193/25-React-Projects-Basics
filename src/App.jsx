@@ -4,6 +4,7 @@ import Modal from "./components/custom-model-popup";
 import TabTest from "./components/custom-tabs";
 import FeatureFlags from "./components/feature-flag";
 import FeatureFlagGlobalState from "./components/feature-flag/context";
+import Food from "./components/food-recipe";
 import GithubProfile from "./components/github-profile-finder";
 import Image from "./components/imageSlider";
 import LightDarkMode from "./components/light-dark-mode";
@@ -20,6 +21,7 @@ import menus from "./components/tree-view/data";
 import UseFetch from "./components/use-fetch";
 import OutsideClick from "./components/use-outside-click";
 import WindowResize from "./components/use-window-resize";
+import WeatherApp from "./components/weatherApp";
 
 function App() {
   return (
@@ -45,7 +47,9 @@ function App() {
       {/* <ScrollToTopAndBottom/> */}
       {/* <ScrollToSection /> */}
       {/* <OutsideClick /> */}
-      <WindowResize />
+      {/* <WindowResize />  */}
+      {/* <WeatherApp /> */}
+      <Food />
     </div>
   );
 }
