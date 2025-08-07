@@ -14,6 +14,7 @@ import RandomColor from "./components/randomColor";
 import ScrollToTopAndBottom from "./components/Scroll";
 import ScrollIndicator from "./components/scroll-indicator";
 import ScrollToSection from "./components/Scroll/ScrollToSection";
+import ShoppingCart from "./components/shopping-cart";
 import Star from "./components/star-rating";
 import TicTacToe from "./components/tic-tac-toe";
 import TreeView from "./components/tree-view";
@@ -49,7 +50,8 @@ function App() {
       {/* <OutsideClick /> */}
       {/* <WindowResize />  */}
       {/* <WeatherApp /> */}
-      <Food />
+      {/* <Food /> */}
+      {/* <ShoppingCart /> */}
     </div>
   );
 }
